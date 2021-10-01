@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Nhóm 4</title>
+</head>
+<body>
+    <h1><b>Nhóm 4 - Lớp K19411 - Bài tập chèn Video từ Youtube vào trang HTML</b></h1>
+    <a href="#note">GHI CHÚ</a><br />
+    <a href="#dsachnhom4">DANH SÁCH THÀNH VIÊN NHÓM</a><br />
+    <a href="#cachlam">CÁCH CHÈN VIDEO TỪ YOUTUBE VÀO TRANG HTML</a><br /><br />
+
+    <table border="1" cellspacing="1" cellpadding="1" width="100%" height="100%">
+        <caption style="color:blueviolet;background-color:blanchedalmond;font-size:larger"><b>CÓ 2 CÁCH CHÈN VIDEO TỪ YOUTUBE VÀO TRANG HTML</b></caption>
+        <tr>
+            <th align="center" style="font-size:larger">CÁCH 1: Dùng thẻ iframe</th>
+            <th align="center" style="font-size:larger">CÁCH 2: Dùng thẻ object</th>
+        </tr>
+        <tr>
+            <td align="center"><iframe width="510" height="315" src="https://www.youtube.com/embed/fWNaR-rxAic" allowfullscreen></iframe></td>
+            <td align="center"><object width="510" height="315" data="https://www.youtube.com/embed/CevxZvSJLk8" allowfullscreen></object><</td>
+        </tr>
+        <tr>
+            <td align="center">
+                <h3 style="color:brown"><b>Video: Call Me Maybe - Carly Rae Jepsen</b></h3>
+            </td>
+            <td align="center">
+                <h3 style="color:brown"><b>Video: Video: Roar - Katy Perry</b></h3>
+            </td>
+        </tr>      
+    </table>
+
+    <p id="note">
+        <b>GHI CHÚ</b><br />
+        - Có tất cả 3 cách chèn video từ youtube vào trang html là dùng thẻ <b>iframe, object và embed</b> <br/>
+        - Theo thông tin nhóm tìm được, từ năm 2015 youtube đã hủy bỏ việc dùng thẻ <b>embed</b> và thẻ <b>object</b> nhúng video YouTube nhưng khi thử dùng thẻ <b>object</b> nhúng video vẫn hoạt động nên nhóm đưa vào bài như cách làm thứ 2.
+    </p>
+
+    <p id="dsachnhom4">
+        <b>DANH SÁCH THÀNH VIÊN NHÓM</b><br />
+        1. K194111548 - Hồ Kim Ngân - Nhóm trưởng <br />
+        2. K194111541 - Lưu Nguyễn Huỳnh Lê<br />
+        3. K194111570 - Nguyễn Mai Phương Thảo<br />
+        4. K194111571 - Trần Thị Mỹ Thảo <br />
+        5. K194111594 - Hoàng Kim Yến
+    </p>
+
+    <p id="cachlam">
+        <b>CÁCH CHÈN VIDEO TỪ YOUTUBE VÀO TRANG HTML</b><br />
+        - Truy cập youtube và tìm kiếm video phù hợp, truy cập vào video và lấy link.<br />
+        - Link video có dạng: <font style="color:blue">https://www.youtube.com/watch?v=CevxZvSJLk8</font><br />
+        - Thay đổi link video, thay <font style="color:mediumvioletred">watch?v=</font> bằng <font style="color:mediumvioletred">embed/</font>
+        link video cần dùng có dạng: <font style="color:blue">https://www.youtube.com/embed/CevxZvSJLk8 </font>với <b>CevxZvSJLk8</b> là ID của video, tương tự với video còn lại <br />
+        - Dùng thẻ <b> iframe </b> hoặc thẻ <b>object </b> để chèn video vào web 
+        trong video trên thì nhóm dùng thẻ <font style="color:green">iframe</font> để chèn video, cách dùng 2 thẻ cũng tương tự, riêng thẻ object thì thuộc tính src thay bằng data <br />
+        - Các thuộc tính width và height chỉ kích thước khung video trong trang web sau khi chèn, thuộc tính <font style="color:green">allowfullscreen</font> cho phép xem video ở chế độ fullscreen
+    </p>
+</body>
+</html>
